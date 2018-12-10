@@ -1,0 +1,63 @@
+body {
+    background-image: url("../images/round.png");
+    margin: auto;
+}
+nav {
+    background: #e4e4e4;
+    padding: 30px 20px 30px 20px;
+    border: 5px solid #e4e4e4;
+
+    
+}
+.jumbotron {
+    width: 960px;
+    background: #e4e4e4;
+    overflow: hidden;
+}
+
+.navbar-brand {
+    margin: -20px 0px -13px 190px;
+    padding: 20px 20px 20px 30px;
+    font-size: 25px;
+    background: #3e9797;
+    width: 200px;
+
+}
+#navbarNav {
+    padding: 0px 0px 0px 500px;
+
+}
+#me {
+    max-height: 100%;
+    max-width: 100%;
+
+}
+hr {
+    background: #6c6d6d;
+    height: 2px;
+}
+h1 {
+    color: #3e9797;
+}
+#message {
+    height: 250px;
+}
+.portpics {
+    height:200px;
+    width:300px;
+    padding: 10px 10px 10px 10px;
+}
+.portimages {
+    position: relative;
+}
+h4 {
+    text-align: center;
+    background:#3e9797;
+    color: #e4e4e4;
+    position:absolute;
+    height: 50px;
+    width: 280px;
+    bottom: 10%;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 10px 10px 10px;
+}
