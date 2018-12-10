@@ -1,3 +1,8 @@
+html {
+     position: relative; min-height: 100%; 
+}
+
+
 body {
     background-image: url("../images/round.png");
     margin: auto;
@@ -6,11 +11,11 @@ nav {
     background: #e4e4e4;
     padding: 30px 20px 30px 20px;
     border: 5px solid #e4e4e4;
+    position:relative;
 
     
 }
 .jumbotron {
-    width: 960px;
     background: #e4e4e4;
     overflow: hidden;
 }
@@ -21,16 +26,18 @@ nav {
     font-size: 25px;
     background: #3e9797;
     width: 200px;
-
 }
 #navbarNav {
-    padding: 0px 0px 0px 500px;
-
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
 }
+
 #me {
     max-height: 400px;
     max-width: 400px;
-
+}   
+#meimage {
+    overflow:hidden;
 }
 hr {
     background: #6c6d6d;
@@ -41,6 +48,7 @@ h1 {
 }
 #message {
     height: 250px;
+    padding: 0px 0px 0px 0px;
 }
 .portpics {
     height:200px;
@@ -60,4 +68,26 @@ h4 {
     bottom: 10%;
     margin: 0px 0px 0px 10px;
     padding: 10px 10px 10px 10px;
+ }
+.footer {
+    position: fixed;
+    background: #e4e4e4;
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    bottom: 0;
 }
+@media only screen and (max-width: 510px)
+ {
+    .navbar-brand {
+        margin: -20px 0px -13px 00px;
+      
+    }
+ }
+ @media only screen and (min-width:995px)
+ {
+    #navbarNav {
+        position:absolute;
+        right:20%;
+    }
+ }
