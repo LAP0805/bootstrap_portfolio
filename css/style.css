@@ -67,7 +67,7 @@ h4 {
     width: 280px;
     bottom: 10%;
     margin: 0px 0px 0px 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 0px 10px 20px 10px;
  }
 .footer {
     position: fixed;
@@ -80,11 +80,22 @@ h4 {
 @media only screen and (max-width: 510px)
  {
     .navbar-brand {
-        margin: -20px 0px -13px 00px;
+        margin: -20px 0px -13px 0px;
       
     }
  }
- @media only screen and (min-width:995px)
+  @media only screen and (min-width:588px)and (max-width:1000px){
+     .portpics {
+         max-width:175px;
+         max-height:125px;
+     }
+     h4 {
+         max-width:155px;
+         max-height:25px;
+         padding: 0;
+         font-size: 18px;
+     } 
+ @media only screen and (min-width:800px)
  {
     #navbarNav {
         position:absolute;
