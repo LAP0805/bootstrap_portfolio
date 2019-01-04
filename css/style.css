@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("../images/round.png");
+    background-image: url("../images/background2.jpg");
     margin: auto;
 }
 nav {
@@ -14,16 +14,18 @@ nav {
 .main {
     background: #e4e4e4;
     overflow: hidden;
+    border-radius:15px;
 }
 
 .navbar-brand {
     margin: -20px 0px -13px 190px;
     padding: 30px 20px 20px 20px;
     font-size: 30px;
-    background: #3e9797;
+    background: #6c6d6d;
     color: #ffffff !important;
     width: 200px;
     height: 15%;
+    font-family: 'Architects Daughter', cursive;
 }
 #navbarNav {
     margin: 5px 5px 5px 5px;
@@ -33,9 +35,10 @@ nav {
 }
 
 #me {
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 300px;
+    max-width: 300px;
     padding:10px;
+    border-radius:15px;
 }   
 #meimage {
     overflow:hidden;
@@ -45,7 +48,9 @@ hr {
     height: 2px;
 }
 h1 {
-    color: #3e9797;
+    color: #6c6d6d;
+    font-family: 'Staatliches', cursive;
+
 }
 #message {
     height: 250px;
@@ -73,6 +78,8 @@ h4 {
     margin: 0px 0px 0px 10px;
     padding: 10px 10px 10px 10px;
     font-size: 20px;
+    font-family: 'Unica One', cursive;
+
  }
  h5{
      text-align:center;
@@ -81,6 +88,8 @@ h4 {
      margin:0px 0px 10px 10px;
      width:280px;
      border-radius:5px;
+     font-family: 'Unica One', cursive;
+
      
     }
 h5 a{
@@ -102,7 +111,5 @@ h5 a{
 #aboutMe{
     padding:20px;
 }
-#portcontainer{
-    height:150%;
-    
-}
+
+
