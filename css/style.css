@@ -109,5 +109,12 @@ h5 a{
     height:100px;
 }
 
-
-
+@media screen and (max-width:640px){
+    .navbar-brand {
+        margin: -20px 0px -13px 00px;
+    }
+    #me {
+        max-height: 400px;
+        max-width: 400px;
+    }
+}
